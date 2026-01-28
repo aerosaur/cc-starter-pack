@@ -85,6 +85,27 @@ Never: TASK DONE → RESPOND → FORGET
 
 ---
 
+## Mid-Task Save Checkpoint
+
+**During long tasks (3+ tool calls), PAUSE and ask yourself:**
+
+> "Have I saved anything yet? Should I?"
+
+**Signs you should save NOW:**
+- Created a file → save file path + purpose
+- Made a decision → save decision + reasoning
+- Completed a milestone → save progress summary
+- Been working for 5+ tool calls without saving → save current state
+
+**DON'T wait until:**
+- The task is "fully complete"
+- The user asks "what did you save?"
+- The end of the session
+
+This is a known blind spot. If you notice you haven't saved in a while, SAVE NOW.
+
+---
+
 ## Mandatory Behaviors
 
 ### Before Responding
