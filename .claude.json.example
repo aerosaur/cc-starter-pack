@@ -1,0 +1,48 @@
+{
+  "mcpServers": {
+    "memory-keeper-short": {
+      "type": "stdio",
+      "command": "bash",
+      "args": [
+        "/path/to/memory-keeper-short/run.sh"
+      ],
+      "env": {}
+    },
+    "memory-keeper-long": {
+      "type": "stdio",
+      "command": "bash",
+      "args": [
+        "/path/to/memory-keeper-long/run.sh"
+      ],
+      "env": {}
+    },
+    "sequential-thinking": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropics/mcp-server-sequential-thinking"
+      ],
+      "env": {}
+    },
+    "time": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-time"
+      ],
+      "env": {}
+    },
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropics/mcp-server-filesystem",
+        "/path/to/allowed/directory1",
+        "/path/to/allowed/directory2"
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sensitive files - NEVER commit these
+.env
+.env.local
+.env.*.local
+credentials.json
+*.pem
+*.key
+
+# Database files (from memory keeper)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+dist/
+build/
